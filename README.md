@@ -33,7 +33,11 @@ spec>models
 
 Apps & More :
 
-Visual Studio Code GitHub Heroku For further infos about Rails : Guide http://guides.rubyonrails.org/getting_started.html
+Visual Studio Code 
+GitHub 
+Heroku 
+
+For further infos about Rails : Guide http://guides.rubyonrails.org/getting_started.html
 
 Forms http://guides.rubyonrails.org/form_helpers.html
 
