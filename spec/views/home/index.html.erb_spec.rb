@@ -27,7 +27,7 @@ RSpec.describe "home/index.html.erb", type: :view do
     it 'does not show logout link' do
       
       visit(root_path)
-      expect(page).to have_no_link (href: destroy_user_session_path, class:'nav-link')
+      expect(page).to have_no_link(href: destroy_user_session_path, class:'nav-link')
     end
 
   end
@@ -36,10 +36,19 @@ RSpec.describe "home/index.html.erb", type: :view do
   context 'user is connected' do
 
     it 'does not show login link' do
-      pending ("à faire")
+     
+      user1=create(:user)
+      visit(new_user_session_path)
+      fill_in 'user_email', with: user1.email
+      fill_in 'user_password', with: user1.password
+      click_button "Log in"
+      visit(root_path)
+      expect(page).to have_no_link(href: new_user_session_path,class:'nav-link')
+  
     end
 
     it 'does not show signup link' do
+
       pending ("à faire")
     end
 

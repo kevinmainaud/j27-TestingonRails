@@ -42,6 +42,8 @@ group :test do
   gem 'capybara'
   gem 'poltergeist'
   gem 'shoulda-matchers'
+  gem 'factory_bot_rails'
+
 end
 
 group :production do
