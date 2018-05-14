@@ -12,6 +12,7 @@ Additionals notes:
 When you cloned the repository, please do :
 
 $bundle install & bundle update
+
 Versions used : Ruby Version : 2.5.1 Rails Version : 5.2.0
 
 
