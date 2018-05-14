@@ -1,23 +1,23 @@
 # Ruby on Rails / Testings
+Follow me on Github : https://github.com/kevinmainaud
+
 
 Objective :
 
 Create Testings using Rspec, Caipirinha (Capybara)
 
-Follow me on Github : https://github.com/kevinmainaud
 
-Additionals notes
+Additionals notes: 
 
 When you cloned the repository, please do :
 
 $bundle install & bundle update
-
 Versions used : Ruby Version : 2.5.1 Rails Version : 5.2.0
+
 
 How to see the application ?
 
-
-For the application :when you are on the folder, you can go to the local server by doing :
+=> For the application :when you are on the folder, you can go to the local server by doing :
 
 $rails s
 After that, go to your browser and type :
@@ -25,10 +25,9 @@ After that, go to your browser and type :
 $http://localhost:3000/
 
 
-For the tests: 
+=> For the tests: 
 spec>views
 spec>models
-
 
 
 Apps & More :
