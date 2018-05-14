@@ -1,24 +1,40 @@
-# README
+# Ruby on Rails / Testings
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Objective :
 
-Things you may want to cover:
+Create Testings using Rspec, Caipirinha (Capybara)
 
-* Ruby version
+Follow me on Github : https://github.com/kevinmainaud
 
-* System dependencies
+Additionals notes
 
-* Configuration
+When you cloned the repository, please do :
 
-* Database creation
+$bundle install & bundle update
 
-* Database initialization
+Versions used : Ruby Version : 2.5.1 Rails Version : 5.2.0
 
-* How to run the test suite
+How to see the application ?
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+For the application :when you are on the folder, you can go to the local server by doing :
 
-* ...
+$rails s
+After that, go to your browser and type :
+
+$http://localhost:3000/
+
+
+For the tests: 
+spec>views
+spec>models
+
+
+
+Apps & More :
+
+Visual Studio Code GitHub Heroku For further infos about Rails : Guide http://guides.rubyonrails.org/getting_started.html
+
+Forms http://guides.rubyonrails.org/form_helpers.html
+
+From KM with love
